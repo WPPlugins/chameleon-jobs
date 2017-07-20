@@ -1,0 +1,165 @@
+#vacancy_details p, .job p {
+    margin-bottom: 6px !important;
+}
+.job label {
+    float: left;
+    width: 200px;
+}
+.job {
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.view_morebtn  {
+
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px 14px;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.jobapply {
+
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 8px 14px !important;
+    text-align: center;
+    text-decoration: none !important;
+    background-image: none !important;
+}
+#vacancy_details label {
+
+    float: left;
+    width: 200px;
+}
+.star { color:#F00; }
+.searchlabel {
+    float: left;
+    width: 140px;
+}
+.search_form select
+{
+    width:150px;
+}
+#form-application{background:white;}
+#form-application table{    border-collapse: collapse;}
+#form-application table td, th {
+    border:none;
+}
+.pageul li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    position: static;
+}
+
+.alert {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 18px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert-success, .alert-success .alert-heading {
+    color: #468847;
+}
+.alert-danger, .alert-error {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+.job_summary{
+    display: table-cell;
+    text-align: justify;
+}
+.desc-wrapper, .title-wrapper{
+    text-align: left;
+    display: table;
+}
+.chameleoni_listing .search_form select{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #2b2b2b;
+    padding: 8px 10px 7px;
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: baseline;
+}
+.chameleoni_listing form table, .chameleoni_listing form table tr td{
+    border: none
+}
+.pageul li{ 
+    list-style:none;cursor:pointer;
+    display:inline-block;
+    margin:0 5px;
+    border:solid 1px #ccc;
+    border-radius: 3px;
+    padding:0 3px;
+
+}
+.pageul{
+    margin:5px 0;
+    text-align:center;
+}
+.chk_filter {
+    margin: 7px 8px 8px;
+}
+.chk_filter > label {
+    vertical-align: middel;
+}
+
+
+.chk_filter label[for='permanent']{
+    margin-left:5px;
+}
+
+
+.chk_filter label[for='self_employed']{
+    margin-left:5px;
+}
+
+
+input[name='login_submit']{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+@media (max-width: 600px){
+    article section table td{
+        padding:0px;
+    }
+
+    .job label{
+        width:40%;
+    }
+    .chk_filter{
+        width:120px;
+        float:left;
+    }
+
+    #vacancy_details label{
+        width:40%;
+    }
+}
